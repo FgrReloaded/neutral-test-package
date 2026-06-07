@@ -1,0 +1,23 @@
+{
+  "name": "@fgrreloaded/test-package",
+  "version": "1.0.1",
+  "description": "A basic package for testing npm publishing",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "@fgrreloaded/test-package": "^1.0.0",
+    "@neutralbase/template-component": "1.2.0-remove-test-static"
+  }
+}
